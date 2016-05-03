@@ -19,5 +19,5 @@ De los archivos generados solo se hilan los sensibles a sufrir modificación. Lo
       /uboot\.txt          #Archivo configuración de u-boot para initramfs
 ```   
 <br />
-La versión usada de buildroot es la versión 2013.11 para la cual se ha usado u-boot 2013.<br />
+La versión usada de buildroot es la versión 2013.11 para la cual se ha usado u-boot 2016.03.<br />
 Se puede descargar builroot 2013.11 desde [aquí](https://buildroot.org/downloads/buildroot-2013.11.tar.gz)<br />
