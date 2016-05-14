@@ -1,0 +1,6 @@
+mmc rescan
+mmc list
+setenv bootargs root=/dev/ram rw ramdisk_size=16384 initrd=0x02000000,16M init=/sbin/init smsc95xx.macaddr=${ethaddr}
+fatload mmc 0 0x01000000 uImage
+fatload mmc 0 0x02000000 rootfs.ext2.gz
+bootm 0x01000000 

@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Run monitor AM2320
+#
+echo -n "Waiting for insert SD..."
+sleep 5
+echo -n "Running monitor..."
+chmod 777 /root/monitor
+./root/monitor
+

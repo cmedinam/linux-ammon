@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# Set hour
+#
+echo -n "Setting hour..."
+rdate -s hora.roa.es
+rdate -p hora.roa.es
