@@ -1,5 +1,5 @@
 # linux-ammon
-Linux empotrado para el monitor con el sensor AM2320 para lanzar en una target Raspberry Pi B<br />
+Linux empotrado para el monitor con el sensor AM2320 para lanzar en una target Raspberry Pi B. Para que funcione de forma autónoma.<br />
 <br />
 Los archivos generados siguen los parametros configurados en dos archivos:<br />
  1.  .config que se encuentra en la carpeta principal de buildroot y se configuró mediante el comando make xconfig<br />
