@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Set hour from Real Observatorio de la Armada Española
+# Set hour
 #
 echo -n "Setting hour..."
 rdate -s hora.roa.es
