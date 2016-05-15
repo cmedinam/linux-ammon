@@ -1,8 +1,0 @@
-#!/bin/sh
-#
-# Set hour
-#
-echo -n "Setting hour..."
-rdate -s hora.roa.es
-echo -n "DATE-(UTP) --> "
-rdate -p hora.roa.es
